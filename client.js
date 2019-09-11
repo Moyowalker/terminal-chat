@@ -53,7 +53,7 @@ const main = async () => {
     }
 
     const chatManager = new ChatManager({
-      instanceLocator: "YOUR_INSTANCE_LOCATOR",
+      instanceLocator: "v1:us1:97df6c3e-5eca-4d3b-aa80-c025925413b4",
       userId: username,
       tokenProvider: new TokenProvider({
         url: "http://localhost:3001/authenticate"
